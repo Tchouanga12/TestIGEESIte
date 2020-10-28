@@ -1,0 +1,197 @@
+﻿/*Author name: Tchouanga Tchatchouang Franck Stephane*/
+
+body {
+    display: block;
+    text-align: center;
+    padding: 3px;
+    background-color: white;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+footer {
+    background-color: deepskyblue;
+    display: block;
+    background-image: linear-gradient(deepskyblue, blue);
+}
+img {
+    display: inline-block;
+    margin-top:10px;
+}
+
+/*Social Media Css Codes*/
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30%;
+    margin: 5px 2px;
+}
+
+/*social media hover effect*/
+.fa:hover {
+    opacity: 0.7;
+}
+
+/*facebook social media hover effect*/
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/*twitter social media hover effect*/
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+/*linkedin social media hover effect*/
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+/*youtube social media hover effect*/
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+/*Image Css Codes*/
+img.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 50%;
+    width: 100px;
+    padding: 20px;
+}
+img.sticky2 {
+
+    padding: 50px;
+    border-radius:70px;
+    margin-left:20px;
+}
+
+/*Table header CSS code*/
+th {
+    text-align: center;
+    display: inline-block;
+    border-bottom: 10px;
+    border-bottom-color: black;
+    border-color: black;
+}
+
+/*Table row Css codes*/
+tr {
+    border-bottom-color: white;
+    border-color: white;
+    color:black;
+}
+.container {
+    padding: 20px;
+}
+hr.new1 {
+    border: 1px solid black;
+}
+a{
+    text-decoration-color:black;
+}
+p{
+    color:black;
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    background-color: forestgreen;
+    color: white;
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 500px;
+    opacity: 0.8;
+}
+#myBtn:hover{
+        background-color: #555;
+}
+
+/*flexbox container Css codes*/
+.flex-container {
+    display: flex;
+    background-color: white;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+    .flex-container {
+        flex-direction: column;
+    }
+}
+
+.flex-container > div {
+        background-color: transparent;
+        margin: 20px;
+        padding: 30px;
+        font-size: 11px;
+    }
+
+.Header {
+    text-align: center;
+}
+
+/*Card list Css codes*/
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+
+}
+    /* On mouse-over, add a deeper shadow */
+.card:hover {
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.ourMission{
+    margin-left:10px;
+}
+
+/*Carld list hovering effect Css Codes*/
+.zoom {
+    padding: 50px;
+    background-color: green;
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+}
+
+    .zoom:hover {
+        transform: scale(1.3); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    }
+
+
+/*Scroll bar Css Code*/
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
